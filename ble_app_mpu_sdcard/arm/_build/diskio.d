@@ -1,0 +1,15 @@
+.\_build\diskio.o: ..\sd_filesystem_src\diskio.c
+.\_build\diskio.o: ..\..\..\..\..\Include\spi_master.h
+.\_build\diskio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\_build\diskio.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\diskio.o: ..\sd_filesystem_src\ffconf.h
+.\_build\diskio.o: ..\sd_filesystem_src\diskio.h
+.\_build\diskio.o: ..\sd_filesystem_src\integer.h
+.\_build\diskio.o: ..\..\..\..\..\Include\nrf_gpio.h
+.\_build\diskio.o: ..\..\..\..\..\Include\nrf51.h
+.\_build\diskio.o: C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h
+.\_build\diskio.o: C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h
+.\_build\diskio.o: C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h
+.\_build\diskio.o: ..\..\..\..\..\Include\system_nrf51.h
+.\_build\diskio.o: ..\..\..\..\..\Include\nrf51_bitfields.h
+.\_build\diskio.o: C:\Keil\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h

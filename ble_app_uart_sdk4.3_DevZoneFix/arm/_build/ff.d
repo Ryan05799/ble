@@ -1,0 +1,9 @@
+.\_build\ff.o: ..\ff.c
+.\_build\ff.o: ..\ff.h
+.\_build\ff.o: ..\integer.h
+.\_build\ff.o: C:\Keil\ARM\ARMCC\bin\..\include\stdbool.h
+.\_build\ff.o: ..\ffconf.h
+.\_build\ff.o: ..\diskio.h
+.\_build\ff.o: ..\..\..\..\..\Include\spi_master.h
+.\_build\ff.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\_build\ff.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h

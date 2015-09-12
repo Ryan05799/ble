@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+".\_build\arm_startup_nrf51.o"
+".\_build\system_nrf51.o"
+".\_build\main.o"
+".\_build\nrf_adc.o"
+".\_build\ble_srv_common.o"
+".\_build\ble_nus.o"
+".\_build\ble_error_log.o"
+".\_build\ble_flash.o"
+".\_build\ble_advdata.o"
+".\_build\app_timer.o"
+".\_build\ble_conn_params.o"
+".\_build\ble_stack_handler.o"
+".\_build\ble_debug_assert_handler.o"
+".\_build\simple_uart.o"
+".\_build\nrf_delay.o"
+".\_build\twi_sw_master.o"
+".\_build\diskio.o"
+".\_build\fattime.o"
+".\_build\ff.o"
+".\_build\spi_master.o"
+--strict --scatter ".\_build\ble_app_uart.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\_build\ble_app_uart.map" -o .\_build\ble_app_uart.axf
